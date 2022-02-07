@@ -8,17 +8,17 @@ Create a folder with the directory of your choice:
 D:\User\LaunchX\NameOfVirtualEnviroment
 ```
 After open cmd screen, you can install Virtualven with the command `python -m venv env`.
-The next line is an approach of what your cmd screen looks at:
+The next line is an approach of what your cmd screen shows:
 ```
 D:\User\LaunchX\VirtualEnviroment>python -m venv env
 ```
-After you've given an enter nothing will happen on the CMD screen, however the environment is created in the chosen directory:
+After you've given an enter, nothing will happen on the CMD screen, however the environment is created in the chosen directory:
 
 ![Screenshot](https://res.cloudinary.com/gwenyver/image/upload/v1644208877/Github/Capture01_ruclfn.png)
 
 ### Activate the Virtual Enviroment ###
 
-To activate the environment, you must locate yourself in the folder with the name `bin` or `Scripts`
+To activate the virtual environment, you must locate yourself in the folder with the name `bin` or `Scripts`
 
 The next lines is what your cmd screen looks at:
 ```
@@ -42,7 +42,7 @@ You must write in the cmd as below is presented in the following line:
 ```
 
 Now, with the command `pip freeze`, you can see what packages you have installed.  
-`pip freeze`, according to the [documentation](https://pip.pypa.io/en/stable/cli/pip_freeze/) is:
+`pip freeze`, according to the [documentation](https://pip.pypa.io/en/stable/cli/pip_freeze/) is an:
 >Output installed packages in requirements format.
 >`packages` are listed in a case-insensitive sorted order.
 
@@ -55,8 +55,12 @@ six==1.16.0
 
 ### Deactivate the Virtual Enviroment ###
 
-When you need to leave your virtual environment, you just have to execute the following command in cmd:
+When you need to close your virtual environment, you just have to execute the following command in cmd:
 ```
 (env) D:\User\LaunchX\VirtualEnviroment\env\Scripts>deactivate
 ```
 After that, yor screen display your directory without `(env)`.
+```
+ D:\User\LaunchX\VirtualEnviroment\env\Scripts>
+```
+
