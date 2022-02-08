@@ -1,6 +1,6 @@
 # Creation of Python’s Virtual Environments / Creación de un Entorno Virtual Python #
 ### Windows 10: ###
-#### Onboarding LaunchX module 2 documentation exercise. ####
+#### Onboarding LaunchX module 2 Kata 02. ####
 
 ### Create a Virtual Enviroment ###
 Create a folder with the directory of your choice:
