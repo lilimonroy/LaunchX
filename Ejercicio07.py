@@ -38,7 +38,3 @@ for each_sentence in text_split:
             new_sentence = each_sentence.replace(' C', ' Celsius')
 
 print(new_sentence)
-        # if each_word in each_sentence:
- #           print(each_word.replace(" C", "Celsius"))
-        
-#print(text_split)
